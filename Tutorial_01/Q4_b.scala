@@ -20,4 +20,5 @@ object Q4_b extends App{
   }
 
   println(profit(5),profit(10),profit(15),profit(20),profit(25),profit(30),profit(35),profit(40))
+  //answer -> (-180,480,940,1200,1260,1120,780,240)
 }
