@@ -1,4 +1,4 @@
-import scala.io.StdIn.readInt
+import scala.io.StdIn.readInt   //import the object for readInt
 
 object Q4_a extends App{
 
@@ -35,6 +35,6 @@ object Q4_a extends App{
   print("Enter OT hours of employee per week: ")
   val hoursOT = readInt()
 
-  printf("Total Salary : %.3f",salary(hoursNormal:Int,hoursOT:Int));      //Total Salary : 11044.000000
+  printf("Total Salary : %.3f",salary(hoursNormal:Int,hoursOT:Int));     //Total Salary : 11044.000000
 
 }

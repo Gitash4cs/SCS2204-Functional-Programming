@@ -9,7 +9,7 @@ object Q4_b extends App{
     return attendees(price) * price
   }
 
-  //Function for Calculate the cost by giving the ticket price
+  //Function for Calculate the performance cost by giving the ticket price
   def cost(price:Int):Int={
     return 500 + attendees(price) * 3   //attendee costs -> 3 Rupees
   }
